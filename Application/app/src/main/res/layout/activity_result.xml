@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result"
+    android:orientation="vertical"
+    android:background="@drawable/bg_office"
+    >
+
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:fontFamily="@font/alice"
+        android:gravity="center"
+        android:text="Result"
+        android:paddingBottom="8dp"
+        android:paddingTop="30dp"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="60dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/boss"
+        />
+
+    <TextView
+        android:id="@+id/resultLabel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginEnd="25dp"
+        android:padding="12dp"
+        android:background="@drawable/chat_left"
+        android:fontFamily="@font/average"
+        android:gravity="center"
+        android:text="Hello"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/resultLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:padding="12dp"
+        android:background="@drawable/chat_left"
+        android:fontFamily="@font/average"
+        android:gravity="center"
+        android:text="Hello"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+
+    <ImageView
+
+        android:id="@+id/student_image"
+        android:layout_width="60dp"
+        android:layout_height="62dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/user_image"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/newbie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="70dp"
+        android:layout_gravity="right"
+        android:padding="18dp"
+        android:background="@drawable/chat_right"
+        android:text="Level 1: Newbie"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/average"
+        android:elevation="45dp"
+        android:textStyle="bold"
+        android:onClick="newbieResult"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/intermediate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="70dp"
+        android:layout_gravity="right"
+        android:padding="18dp"
+        android:background="@drawable/chat_right"
+        android:text="Level 2: intermediate"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/average"
+        android:elevation="45dp"
+        android:textStyle="bold"
+        android:onClick="intermediateResult"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/expert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="70dp"
+        android:background="@drawable/chat_right"
+        android:elevation="45dp"
+        android:fontFamily="@font/average"
+        android:gravity="center"
+        android:padding="18dp"
+        android:text="Level 3: Expert"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:onClick="expertResult"
+        />
+
+
+
+</LinearLayout>

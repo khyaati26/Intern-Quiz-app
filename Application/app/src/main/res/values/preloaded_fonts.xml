@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alice</item>
+        <item>@font/average</item>
+        <item>@font/bangers</item>
+        <item>@font/bree_serif</item>
+        <item>@font/playfair_display</item>
+    </array>
+</resources>

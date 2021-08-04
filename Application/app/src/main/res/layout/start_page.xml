@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_office"
+    android:orientation="vertical"
+    tools:context="com.example.softwareengmodel.StartPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/bangers"
+                android:gravity="center"
+                android:text="The Office"
+                android:textColor="@color/black"
+                android:textSize="70dp" />
+
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="316dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="-10dp"
+                android:layout_marginEnd="45dp"
+                android:fontFamily="@font/bree_serif"
+                android:gravity="center"
+                android:text="A Software Engineering Game"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/newbie"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="80dp"
+                android:backgroundTint="#ffffff"
+                android:elevation="45dp"
+                android:fontFamily="@font/bree_serif"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Level 1: Newbie"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:cornerRadius="15dp" />
+
+
+            <Button
+                android:id="@+id/intermediate"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="30dp"
+                android:backgroundTint="#ffffff"
+                android:elevation="45dp"
+                android:fontFamily="@font/bree_serif"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Level 2: intermediate"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:cornerRadius="15dp" />
+
+            <Button
+                android:id="@+id/expert"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="40dp"
+                android:backgroundTint="#ffffff"
+                android:fontFamily="@font/bree_serif"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Level 3: Expert"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:cornerRadius="15dp"
+                android:elevation="45dp"/>
+
+            <Button
+                android:id="@+id/result"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="40dp"
+                android:backgroundTint="#ffffff"
+                android:elevation="45dp"
+                android:fontFamily="@font/bree_serif"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Total Score"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:cornerRadius="15dp" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</LinearLayout>
